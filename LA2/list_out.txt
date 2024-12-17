@@ -1,0 +1,18 @@
+Parsing is successful
+OP(/)
+--->OP(+)
+	--->OP(*)
+		--->ID(x1)
+		--->ID(x1)
+	--->OP(*)
+		--->ID(x2)
+		--->ID(x2)
+--->OP(-)
+	--->OP(*)
+		--->ID(x1)
+		--->ID(x2)
+	--->NUM(-1)
+Reading variable values from the input
+x1 = -125
+x2 = 16
+The expression evaluates to -7
